@@ -1,0 +1,85 @@
+{
+  "accounts": {
+    "12345678": {
+      "name": "Alice",
+      "pin_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "balance": "9500.00",
+      "transactions": [
+        {
+          "type": "deposit",
+          "amount": "500.00",
+          "timestamp": "2025-09-10T19:48:33Z",
+          "counterparty": null,
+          "note": "Seed"
+        },
+        {
+          "type": "deposit",
+          "amount": "4000.00",
+          "timestamp": "2025-09-10T19:50:21Z",
+          "counterparty": null,
+          "note": ""
+        },
+        {
+          "type": "withdraw",
+          "amount": "2500.00",
+          "timestamp": "2025-09-10T19:50:45Z",
+          "counterparty": null,
+          "note": ""
+        },
+        {
+          "type": "deposit",
+          "amount": "4500.00",
+          "timestamp": "2025-09-10T19:52:25Z",
+          "counterparty": null,
+          "note": ""
+        },
+        {
+          "type": "transfer_in",
+          "amount": "1000.00",
+          "timestamp": "2025-09-10T20:01:10Z",
+          "counterparty": "87654321",
+          "note": "pour la pension"
+        },
+        {
+          "type": "deposit",
+          "amount": "2000.00",
+          "timestamp": "2025-09-10T20:05:41Z",
+          "counterparty": null,
+          "note": ""
+        }
+      ],
+      "failed_attempts": 0,
+      "is_locked": false
+    },
+    "87654321": {
+      "name": "Bob",
+      "pin_hash": "fe2592b42a727e977f055947385b709cc82b16b9a87f88c6abf3900d65d0cdc3",
+      "balance": "1000000.00",
+      "transactions": [
+        {
+          "type": "deposit",
+          "amount": "1000.00",
+          "timestamp": "2025-09-10T19:48:33Z",
+          "counterparty": null,
+          "note": "Seed"
+        },
+        {
+          "type": "transfer_out",
+          "amount": "1000.00",
+          "timestamp": "2025-09-10T20:01:10Z",
+          "counterparty": "12345678",
+          "note": "pour la pension"
+        },
+        {
+          "type": "deposit",
+          "amount": "1000000.00",
+          "timestamp": "2025-09-10T20:01:22Z",
+          "counterparty": null,
+          "note": ""
+        }
+      ],
+      "failed_attempts": 0,
+      "is_locked": false
+    }
+  }
+}
